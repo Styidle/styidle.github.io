@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYIDLE | #STUDYWITHIDEALSWITHSTYIDLE | Just Learn & Make some fun </title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+		function openFunction() {
+			// document.getElementsByTagName(".navto").style.width="30vw";
+            // document.getElementById("gazab").style.width="40vw";
+            document.getElementById("gazab").style.display="block";
+            document.getElementById("head").style.height="100vh";
+            document.getElementById("head").style.overflow="hidden";
+            // document.getElementById("gazab").style.height="100vh";
+            // document.getElementsByTagNameNS("body").style.height="100vh";
+		};
+		function closeFunction() {
+			// document.getElementsByTagName(".navto").style.width="30vw";
+            // document.getElementById("gazab").style.width="0vw";
+            document.getElementById("gazab").style.display="none";
+            document.getElementById("head").style.height="auto";
+            document.getElementById("head").style.overflow="auto";
+		};
+        if (document.getElementById("gazab").style.display="block") {
+            document.getElementById("oho").style.fontSize="xx-small";
+        }
+        else{
+            document.getElementById("oho").style.fontSize="normal";
+        }
+	</script>
+</head>
+<body>
+    <div id="head">
+    <div id="home">
+        <header>
+            <div class="brand" id="brands"><a href="index.html" id="oho">STYIDLE</a>
+            </div>
+            <div id="toggler">
+                <h3 onclick="openFunction()" ondblclick="closeFunction()">&#9776;</h3>
+            </div>
+            <nav>
+                <ul id="ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#study">Study Materials</a></li>
+                    <!-- <li><a href="#">Game Zone</a></li> -->
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                
+            <form action="#courses" class="form">
+                <input type="text" placeholder="What are you looking for?">
+                <button type="submit">Search</button>
+            </form>
+            </nav>
+            <div class="navto" id="gazab">  
+                <ul id="ul">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#study">Study Materials</a></li>
+                    <!-- <li><a href="#">Game Zone</a></li> -->
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#study">Study Materials</a></li>
+                    <!-- <li><a href="#">Game Zone</a></li> -->
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a onclick="closeFunction()" class="close">Close</a></li>
+                </ul>
+                
+            <form action="#courses" class="form">
+                <input type="text" placeholder="What are you looking for?">
+                <button type="submit">Search</button>
+            </form>
+            </div>
+        </header>
+        <div class="main" id="home">
+            <div class="text">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, vero?</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum recusandae placeat tenetur voluptate maiores consequatur a? Possimus dolores excepturi consequuntur. Lorem ipsum dolor sit amet </p>
+                <a href="#courses" class="button">Explore</a>
+            </div>
+            <div class="img">
+                <img src="/undraw_learning_2q1h.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="courses" id="courses">
+        <h1>Our Popular Courses</h1>
+        <div class="course">
+            <div class="sub">
+                <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+                <h3> Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+            </div>
+            <div class="sub">
+                <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+                <h3> Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+            </div>
+        </div>
+        <div class="course">
+            <div class="sub">
+                <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+                <h3> Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+            </div>
+            <div class="sub">
+                <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+                <h3> Lorem, ipsum.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="courses" id="study">
+        <h1>Study Materials</h1>
+    <div class="course">
+        <div class="sub" id="stu">
+            <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+        <div class="sub" id="stu">
+            <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+    </div>
+    <div class="course">
+        <div class="sub" id="stu">
+            <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+        <div class="sub" id="stu">
+            <img src="https://cdn.pixabay.com/photo/2016/11/30/12/17/cells-1872666__340.jpg" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+    </div>
+</div>
+<hr>
+<div id="rev">
+    <div class="coursera" >
+        <h1>Reviews</h1>
+    <div class="course">
+        <div class="subs">
+            <img src="https://images.pexels.com/photos/1320701/pexels-photo-1320701.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+        <div class="subs">
+            <img src="https://images.pexels.com/photos/1320701/pexels-photo-1320701.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+    </div>
+    <div class="course">
+        <div class="subs">
+            <img src="https://images.pexels.com/photos/1320701/pexels-photo-1320701.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+        <div class="subs">
+            <img src="https://images.pexels.com/photos/1320701/pexels-photo-1320701.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Math">
+            <h3> Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ipsam voluptatibus in, itaque vel debitis illo perferendis illum autem quo optio adipisci reiciendis repudiandae nulla alias corrupti, ipsum quia necessitatibus maxime ratione!</p>
+        </div>
+    </div>
+    <hr>
+    <div id="contact">
+        <div id="cont">
+            <h2>Get In Touch</h2>
+            <hr>
+            <form action="#">
+            <div class="form">
+            <div class="ask">
+                <h4>Name :</h4>
+                <input type="text" required placeholder="Your name">
+            </div>
+            <div class="ask">
+                <h4>Email :</h4>
+                <input type="email" required placeholder="example@example.com">
+            </div>
+            <div class="ask">
+                <h4>Phone :</h4>
+                <input type="number" length="10" required  placeholder="1234567890">
+            </div>
+            <div class="ask">
+                <h4>About :</h4>
+                <input type="text" id="about" required placeholder="About yourself or your feedback">
+            </div>
+        </div>
+        <button>SUBMIT</button>
+    </form>
+    </div>
+    </div>
+    <footer id="footer">
+        <div class="brand">
+            <a href="index.html">STYIDLE</a>
+        </div>     
+        <div class="links">
+            <li>Ouick links</li>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+        </div>   
+        <div class="links">
+            <li>Ouick links</li>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+        </div>   
+        <div class="links">
+            <li>Ouick links</li>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+        </div>   
+        <div class="links">
+            <li>Ouick links</li>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+            <a href="#courses">Popular Courses</a>
+            <a href="#study">Study Materials</a>
+        </div>   
+    </footer>
+    <footer class="footer">
+        <h3>© Copyright | All rights Reserved | © Styidle | Terms & Conditons</h3>
+    </footer></div>
+    <!-- </script> -->
+</body>
+</html>
